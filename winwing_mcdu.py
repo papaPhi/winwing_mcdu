@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-VERSION = "v1.4+"
+VERSION = "v1.4a+"
 
 # IP Address of machine running X-Plane. 
 UDP_IP = "127.0.0.1"
@@ -905,6 +905,7 @@ class UsbManager:
             {'vid': 0x4098, 'pid': 0xbb3e, 'name': 'MCDU - First Offizer', 'mask': DEVICEMASK.MCDU | DEVICEMASK.FO},
             {'vid': 0x4098, 'pid': 0xbb3a, 'name': 'MCDU - Observer', 'mask': DEVICEMASK.MCDU | DEVICEMASK.OBS},
             {'vid': 0x4098, 'pid': 0xbc1e, 'name': 'PFP 3N (not tested)', 'mask': DEVICEMASK.PFP3N},
+            {'vid': 0x4098, 'pid': 0xbb35, 'name': 'PFP 3N - Not Initialized (not tested)', 'mask': DEVICEMASK.PFP3N},
             {'vid': 0x4098, 'pid': 0xbc1d, 'name': 'PFP 4 (not tested)', 'mask': DEVICEMASK.PFP4},
             {'vid': 0x4098, 'pid': 0xba01, 'name': 'PFP 7 (not tested)', 'mask': DEVICEMASK.PFP7}
         ]
